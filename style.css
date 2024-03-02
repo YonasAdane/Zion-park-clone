@@ -1,0 +1,201 @@
+body{
+    margin:0px;
+    font-family:sans-serif;
+}
+
+.suggestion{
+    background-color:rgb(181, 82, 0);
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    height:60px;
+    padding-top:2px;
+    padding-bottom:auto;
+}
+
+.suggestion a{
+    background-color:#B36307;
+    color:#fff;
+}
+.nav-1 ul{
+    display:flex;
+    justify-content:flex-end;
+    gap:25px;
+}
+.nav-1 ul a{
+    text-decoration:none;
+    color:#B36307;
+
+}
+.nav-1 ul li{
+    list-style:none;
+    margin-top: 25px;
+}
+.nav-1{
+    height:111px;
+   
+}
+.nav-1 ul li img{
+    align-self:center;
+    display:inline-block;
+    background-color:#B36307;
+    /* margin-right:auto; */
+    margin-left:0px;
+    display:none;
+}
+.upper-background{
+    background-image:url("./pictures/3ed8f1_7c5303b39ea24f5598fe429638609739_mv2.jpg");
+    width:100%;
+    height:681px;
+}
+.nav-2 ul{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    background-color:#B363071C;
+    height: 100%;
+    align-items: center;
+}
+.nav-2 ul a{
+    text-decoration:underline;
+    color:#B36307;
+
+}
+.nav-2 ul li{
+    list-style:none;
+    margin-top: 25px;
+    font-size: 19px;
+    letter-spacing: 0.2em;
+}
+.nav-2{
+    height:111px;
+    
+}
+/* sdsdsd */
+.photographing{
+    margin-left:auto;
+    margin-right:auto;
+    width:55%;
+}
+.photographing img{
+    float:left;
+}
+/* ffffff */
+.the-blog{
+    width:55%;
+    height:690px;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    
+
+}
+.the-blog img{
+    float:left;
+    height:690px;
+    width:505px;
+}
+.the-blog div{
+    /* width:297px; */
+    margin-top:140px;
+    text-align:center;
+    color:#713f05;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+.the-blog div h3{
+    font-size:29px;
+    /* margin:0px; */
+    padding:0px;
+}
+.the-blog div h1{
+    font-family:'Times New Roman', Times, serif;
+
+    margin:0px;
+    font-size:60px;
+}
+.the-blog div p{
+    margin:0px;
+    font-size:20px;
+}
+.adventure{
+    text-align:center;
+    color:#713f05;
+    background-color:#e6b8831c;
+}
+.adventure h3{
+    font-size: 23px;
+    line-height: 1em;
+}
+.adventure h1{
+    font-size: 58px;
+    /* font-family: Arial,Helvetica,sans-serif; */
+    font-family: wfont_10807e_e91cf5ef41814e38a1d410d19f80b25b,wf_e91cf5ef41814e38a1d410d19,orig_shrikhand_regular;
+    font-weight: 100;
+    margin:0;
+}
+
+
+.big-box{
+    display:flex;
+    flex-wrap:wrap;
+
+    width:100%;
+    justify-content:space-between;
+}
+.sub-box{
+    width:33%;
+    color:#B36307;
+    position:relative;
+}
+.sub-box img{
+    width:100%;
+}
+.sub-box h2{
+    line-height: 18px;
+    font-size: 20px;
+    font-family: 'David','Times New Roman', Times, serif;
+    font-weight: 400;
+    padding: 0px 8px;
+}
+.sub-box p{
+    padding: 0px 8px;
+}
+.img-container{
+    display:flex;
+    height:377px;
+
+}
+.sub-img{
+    flex-shrink:1;
+    flex-grow:1;
+    background-position: center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.sub-img img{
+    display:block;
+    position:absolute;
+    right: 10px;
+    top:15px;
+    width:40px;
+    background-color: #ffffff94;
+    opacity:.7;
+
+}
+.img-1{
+    background-image:url("./pictures/354256578_984684196151104_2311570703522225952_n.jpg");
+}
+.img-2{
+    background-image:url("./pictures/353577625_985256295819213_3177399567560643640_n.jpg");
+}
+.img-3{
+    background-image:url("./pictures/353401034_753682566541183_8657617002846165333_n.jpg");
+}
+.img-4{
+    background-image:url("./pictures/352614459_224691813760816_166677498110287964_n.jpg");
+}
